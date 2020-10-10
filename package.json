@@ -1,0 +1,26 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shwetha",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^6.6.2",
+    "@wdio/mocha-framework": "^6.6.0",
+    "@wdio/spec-reporter": "^6.6.0",
+    "@wdio/sync": "^6.6.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^86.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.6.2"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.6.2"
+  }
+}
